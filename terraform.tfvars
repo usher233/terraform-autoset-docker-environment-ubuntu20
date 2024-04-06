@@ -1,0 +1,5 @@
+host_os = "linux"
+vpc_cidr = "10.123.0.0/16"
+public_subnet_cidr = "10.123.1.0/24"
+az = "eu-west-3a"
+instance_type = "t2.micro"
