@@ -21,6 +21,12 @@ variable "public_subnet_cidr" {
     type        = string
 }
 
+variable "region" {
+    description = "The region"
+    type        = string
+}
+
+
 variable "az" {
     description = "The availability zone"
     type        = string
@@ -28,5 +34,10 @@ variable "az" {
 
 variable "instance_type" {
     description = "The instance type"
+    type        = string
+}
+
+variable "bucketname" {
+    description = "The name of the bucket"
     type        = string
 }
